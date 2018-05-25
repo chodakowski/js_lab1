@@ -1,0 +1,128 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 60px;
+  background-color: #1b2431;
+  color: #ffffff;
+  font-family: "Lato", sans-serif !important;
+}
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+.card {
+  background-color: rgb(39, 49, 66) !important;
+  border: 1px solid rgb(49, 61, 79) !important;
+  border-radius: 10px;
+}
+.text-muted, .text-dark {
+  color: #7f8fa4 !important;
+}
+.bg-dark {
+  background-color: #273142 !important;
+}
+
+.btn {
+  margin-top: .5rem;
+  border: 1px solid rgb(49, 61, 79) !important;
+  border-radius: 4px !important;
+  background-color: rgb(39, 49, 66) !important;
+  color: #7f8fa4;
+}
+.btn-danger {
+    padding: .5rem 1rem .5rem 1rem ;
+    margin-top: 1rem;
+    border: 1px solid rgb(237, 28, 36) !important;;
+    border-radius: 4px  !important;;
+    background-color: rgb(34, 44, 60) !important;
+    color: rgb(237, 28, 36);
+}
+
+}
+.navbar {
+  background-color: #273142;
+  width: 100%;
+  height: 70px;
+  position: sticky;
+  font-family: "Lato";
+  font-weight: 600;
+  font-size: 18pt;
+  color: #fff;
+}
+h1 {
+  font-size: 20pt;
+}
+p {
+  font-family: "Lato";
+  color: #7f8fa4;
+}
+.Input_Base {
+  padding-left: 15px;
+  border-width: 1px;
+  border-color: rgb(49, 61, 79);
+  border-style: solid;
+  border-radius: 4px;
+  background-color: rgb(34, 44, 60);
+  width: 243px;
+  height: 34px;
+  color: rgba(255, 255, 255, 0.502);
+  font-size: 14px;
+  line-height: 1.2;
+}
+.Input_icon {
+  padding-left: 15px;
+  border-width: 1px;
+  border-color: rgb(49, 61, 79);
+  border-style: solid;
+  border-radius: 4px;
+  background-color: rgb(34, 44, 60);
+  width: 243px;
+  height: 34px;
+  color: rgba(255, 255, 255, 0.502);
+  font-size: 14px;
+  line-height: 1.2;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+}
+.Input_Base:hover {
+  border-width: 1px;
+  border-color: rgb(49, 61, 79);
+  border-style: solid;
+  border-radius: 4px;
+  background-color: rgb(39, 50, 68);
+}
+.Input_Base:focus {
+  border-width: 1px;
+  border-color: rgb(27, 146, 237);
+  border-style: solid;
+  border-radius: 4px;
+  background-color: rgb(39, 50, 68);
+}
+#zegar {
+  text-align: center;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+.alert {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 7rem;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #273142;
+}
